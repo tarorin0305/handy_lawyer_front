@@ -1,0 +1,15 @@
+{
+  "name": "handy-lawer",
+  "scripts": {
+    "dev": "NUXT_PORT=3333 nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2"
+  }
+}
