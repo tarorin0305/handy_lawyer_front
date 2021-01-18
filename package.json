@@ -1,12 +1,14 @@
 {
   "name": "handy-lawer",
   "scripts": {
-    "dev": "NUXT_PORT=3333 nuxt",
+    "dev": "nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "start": "nuxt start"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/proxy": "^2.1.0",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
